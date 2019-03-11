@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "XZYSearchUI"
   s.version      = "0.0.1"
   s.ios.deployment_target = '8.0'
-  s.summary      = "A short description of XZYSearchUI."
+  s.summary      = "XZYSearchUI 是一个搜索框栏"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
