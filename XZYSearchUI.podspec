@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
   s.name         = "XZYSearchUI"
   s.version      = "0.0.1"
   s.ios.deployment_target = '8.0'
-  s.summary      = "XZYSearchUI 是一个搜索框栏"
+  s.summary      = "XZYSearchUI is a search UI."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  #s.description  = <<-DESC
+  #                DESC
 
   s.homepage     = "https://github.com/xuziyuan/XZYSearchUI"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Search/*"
-  s.exclude_files = "Search/IRSSearchController.h"
+  s.source_files  = "Search/*.{h,m}"
+  s.exclude_files = "Search/*.{h}"
 
   # s.public_header_files = "Classes/**/*.h"
 
