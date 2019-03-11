@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XZYSearchUI"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.ios.deployment_target = '8.0'
   s.summary      = "XZYSearchUI is a search UI."
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xuziyuan/XZYSearchUI", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xuziyuan/XZYSearchUI", :tag => "v#{s.version}" }
 
   s.requires_arc = true
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
