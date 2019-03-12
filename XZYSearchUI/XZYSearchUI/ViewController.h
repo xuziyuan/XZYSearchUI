@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IRSSearchController.h"
+@interface ViewController : UIViewController<IRSSearchResultProtocol>
 
-@interface ViewController : UIViewController
-
+@property (copy,nonatomic)NSString *keyword;
 
 @end
 
