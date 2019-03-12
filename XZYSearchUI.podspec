@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XZYSearchUI"
-  s.version      = "1.0.3"
+  s.version      = "1.0.0"
   s.summary      = "A Search UI Tools"
   s.description  = "A Search UI Tools addtion with cocoapod support."
   s.homepage     = "https://github.com/xuziyuan/XZYSearchUI.git"
