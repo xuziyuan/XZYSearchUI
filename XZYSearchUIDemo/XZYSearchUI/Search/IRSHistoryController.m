@@ -141,7 +141,6 @@ typedef void (^CancelBlock)(void);
 
 - (void)createBasicView{
     self.titleLabel = [[UILabel alloc] init];
-    self.titleLabel.textColor = [UIColor colorNamed:@""];
     self.titleLabel.font = [UIFont systemFontOfSize:14.0];
     [self.titleLabel setTextAlignment:NSTextAlignmentLeft];
     self.titleLabel.text = @"历史搜索";

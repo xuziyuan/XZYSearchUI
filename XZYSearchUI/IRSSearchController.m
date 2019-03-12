@@ -38,6 +38,7 @@ typedef UIViewController<IRSSearchResultProtocol> *(^ResultControllerBlock)(void
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    self.fd_prefersNavigationBarHidden = YES;
+    self.navigationController.navigationBarHidden = YES;
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupNavBar];
     [self addChildViewController:self.historyController];
